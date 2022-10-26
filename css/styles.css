@@ -9,13 +9,205 @@ body{
     color: var(--text-color);
     background-color: var(--white-color);
 }
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
 
-.studio{
+.navigation{
     color: var(--akcent-color);
 }
-.logo{
+.web{
+    font-family: 'Raleway', sans-serif;
     color: var(--akcent-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+   
 }
 .studio{
-    color: #000000
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.link{
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.link:hover, 
+.link:focus{
+    color: var(--akcent-color)
+}
+.contact{
+    color: #757575;
+}
+.contact:hover,
+.contact:focus{
+    color: var(--akcent-color)
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+/* 
+СЕКЦІЯ 1 */
+.one-section{
+    background-color: #2F303A;
+    align-items: center;
+}
+.baner{
+    color: var(--white-color);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.btn{
+    color: var(--white-color);
+    background-color: var(--akcent-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+/* СЕКЦІЯ 2 */
+.benefits{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:  #212121;
+}
+.benefits-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #757575;
+    letter-spacing: 0.03em;
+}
+
+/* СЕКЦІЯ 3 */
+.engage-in{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+
+}
+
+/* СЕКЦІЯ 4 */
+.collective{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.profession{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/* ФУТЕР */
+.web-footer{
+    font-family: 'Raleway', sans-serif;
+    color: var(--white-color) ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.93;
+    letter-spacing: 0.03em;
+}
+footer{
+    background-color: #2F303A;
+}
+.footer-address{
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.footer-contact{
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+/* ПОРТФОЛІО */
+.btn-portfolio{
+    background-color: #F5F4FA;
+    color: #212121;
+    border: transparent;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+.btn-portfolio:hover,
+.btn-portfolio:focus{
+    color: var(--white-color);
+    background-color: var(--akcent-color);
+}
+.portfolio-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.addition{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
