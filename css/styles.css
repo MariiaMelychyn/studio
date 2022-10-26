@@ -10,7 +10,12 @@ body{
     background-color: var(--white-color);
 }
 
-//HEADER
-.title{
-    color: red;
+.studio{
+    color: var(--akcent-color);
+}
+.logo{
+    color: var(--akcent-color);
+}
+.studio{
+    color: #000000
 }
