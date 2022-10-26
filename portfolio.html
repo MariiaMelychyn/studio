@@ -6,35 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,700;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
-    <header>
-        <nav>
-        <a href="/"><span class="web">Web</span><span class="studio">Studio</span></a>
-        <ul>
+    <header class="head head-port">
+        <div class="container header">
+        <nav class="navig">
+        <a href="/" class="logo-header"><span class="web">Web</span><span class="studio">Studio</span></a>
+        <ul class="cont">
             <li><a href="./index.html" class="link">Студія</a></li>
-            <li><a href="" class="navigation">Портфоліо</a></li>
+            <li><a href="./portfolio.html" class="navigation">Портфоліо</a></li>
             <li><a href="" class="link">Контакти</a></li>  
         </ul>
     </nav>
-    <ul>
+    <ul class="add-header">
         <li><a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a></li>
         <li><a href="tel:+38 096 111 11 11" class="contact">+38 096 111 11 11</a></li>
     </ul>
+    </div>
     </header>
     <main>
-        <section>
+        <section class="section">
+            <div class="container">
             <h1 class="visually-hidden">Portfolio</h1>
-            <ul>
+            <ul class="btn-port">
                 <li><button type="button" class="btn-portfolio">Усі</button></li>
                 <li><button type="button" class="btn-portfolio">Веб-сайти</button></li>
                 <li><button type="button" class="btn-portfolio">Додатки</button></li>
                 <li><button type="button" class="btn-portfolio">Дизайн</button></li>
                 <li><button type="button" class="btn-portfolio">Маркетинг</button></li>
             </ul>
-            <ul>
-                <li>
+            <ul class="people">
+                <li class="one-port">
                     <a href>
                     <img src="./img/one.jpg" alt="технокряк" width="370">
                     <h2 class="portfolio-title">Технокряк</h2>
@@ -99,15 +103,18 @@
                 </li>
                 
             </ul>
+            </div>
         </section>
     </main>
     <footer>
+        <div class="container">
         <a href="/"><span class="web">Web</span><span class="web-footer">Studio</span></a>
-        <ul>
+        <ul class="foot">
             <li><a href="https://maps.google.com/maps?q=" class="footer-address">м. Київ, пр-т Лесі Українки, 26</a></li>
             <li><a href="mailto:info@devstudio.com" class="footer-contact">info@devstudio.com</a></li>
             <li><a href="tel:+38 096 111 11 11" class="footer-contact">+38 096 111 11 11</a></li>
         </ul>
+        </div>
     </footer>
 </body>
 </html>

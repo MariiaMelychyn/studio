@@ -6,31 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,700;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
-<header>
-    <nav>
-    <a href="/"><span class="web">Web</span><span class="studio">Studio</span></a>
-    <ul>
+<header class="head">
+    <div class="container header">
+    <nav class="navig">
+    <a href="/" class="logo-header"><span class="web">Web</span><span class="studio">Studio</span></a>
+    <ul class="cont">
         <li><a href="" class="navigation">Студія</a></li>
         <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
         <li><a href="" class="link">Контакти</a></li>  
     </ul>
 </nav>
-<ul>
+<ul class="add-header">
     <li><a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a></li>
     <li><a href="tel:+38 096 111 11 11" class="contact">+38 096 111 11 11</a></li>
 </ul>
+</div>
 </header>
 <main>
     <section class="one-section">
+        <div class="container">
         <h1 class="baner">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
         <button typt="button" class="btn">Замовити послугу</button>
+    </div>
     </section>
-    <section>
+    <section class="section">
+        <div class="container">
         <h2 class="visually-hidden">Наші переваги</h2>
-        <ul>
+        <ul class="benefits-one">
         <li>
         <h3 class="benefits">УВАГА ДО ДЕТАЛЕЙ</h3>
         <p class="benefits-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
@@ -48,48 +54,63 @@
         <p class="benefits-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
         </li>
         </ul>
+    </div>
     </section>
-    <section>
+    <section class="section sect">
+        <div class="container">
         <h2 class="engage-in">Чим ми займаємося</h2>
-        <ul>
+        <ul class="doing">
             <li><img src="./img/people.jpg" href="ноутбук" width="370"></li>
             <li><img src="./img/noyt.jpg" href="компютер" width="370"></li>
             <li><img src="./img/planshet.jpg" href="планшет" width="370"></li>
         </ul>
+        </div>
     </section>
-    <section>
+    <section class="section comand">
+        <div class="container">
         <h2 class="engage-in">Наша команда</h2>
-        <ul>
+        <ul class="company">
             <li>
                 <img src="./img/people-one.jpg" alt="наша каманда" width="270">
+                <div class="block">
                 <h3 class="collective">Ігор Дем'яненко</h3>
                 <p class="profession">Product Designer</p>
+            </div>
             </li>
             <li>
                 <img src="./img/people-two.jpg" alt="наша каманда" width="270">
+            <div class="block">
                 <h3 class="collective">Ольга Рєпіна</h3>
                 <p class="profession">Frontend Developer</p>
+            </div>
             </li>
             <li>
                 <img src="./img/people-three.jpg" alt="наша каманда" width="270">
+            <div class="block">
                 <h3 class="collective">Микола Тарасов</h3>
                 <p class="profession">Marketing</p>
+            </div>
             </li>
             <li>
                 <img src="./img/people-foor.jpg" alt="наша каманда" width="270">
+            <div class="block">
                 <h3 class="collective">Михайло Єрмаков</h3>
                 <p class="profession">UI Designer</p>
+            </div>
             </li>
         </ul>
+        </div>
     </section>
 </main>
 <footer>
+    <div class="container">
     <a href="/"><span class="web">Web</span><span class="web-footer">Studio</span></a>
-    <ul>
+    <ul class="foot">
         <li><a href="https://maps.google.com/maps?q=" class="footer-address">м. Київ, пр-т Лесі Українки, 26</a></li>
         <li><a href="mailto:info@devstudio.com" class="footer-contact">info@devstudio.com</a></li>
         <li><a href="tel:+38 096 111 11 11" class="footer-contact">+38 096 111 11 11</a></li>
     </ul>
+    </div>
 </footer>
 </body>
 </html>

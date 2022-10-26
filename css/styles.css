@@ -12,8 +12,41 @@ body{
 a{
     text-decoration: none;
 }
+html {
+	box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+/* Стили для обнуления верхних отступов у элементов */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin-top: 0;
+}
+img{
+    display: block;
+    height: auto;
+}
 ul{
     list-style: none;
+}
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .navigation{
@@ -52,6 +85,10 @@ ul{
 .contact:focus{
     color: var(--akcent-color)
 }
+.cont{
+    margin: 0;
+    padding: 0;
+}
 
 .visually-hidden {
     position: absolute;
@@ -70,9 +107,41 @@ ul{
 .one-section{
     background-color: #2F303A;
     align-items: center;
+   padding-top: 200px;
+   padding-bottom: 200px;
+}
+.head{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.logo-header{
+    margin-right: 93px;
+}
+.header{
+    display: flex;
+}
+.cont > li{
+    margin-right: 50px;
+}
+.add-header > li{
+margin-right: 50px;
+}
+.navig{
+    display: flex;
+    align-items: center;
+}
+.cont{
+    display: flex;
+}
+.add-header{
+    display: flex;
+    margin-left: auto;
 }
 .baner{
     color: var(--white-color);
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -95,6 +164,8 @@ ul{
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
+    padding: 10px 32px;
+    border: transparent;
 }
 
 /* СЕКЦІЯ 2 */
@@ -115,7 +186,15 @@ ul{
     color: #757575;
     letter-spacing: 0.03em;
 }
-
+.benefits-one{
+    display: flex;
+}
+.benefits-one > li{
+    margin-right: 30px;
+}
+.benefits-one > li:last-child{
+    margin-right: 0;
+}
 /* СЕКЦІЯ 3 */
 .engage-in{
     font-style: normal;
@@ -125,7 +204,21 @@ ul{
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-bottom: 50px;
 
+}
+.doing{
+    display: flex;
+    padding: 0;
+}
+.doing > li{
+    margin-right: 30px;
+}
+.doing > li:last-child{
+    margin-right: 0;
+}
+.sect{
+    padding-top: 0;
 }
 
 /* СЕКЦІЯ 4 */
@@ -144,6 +237,34 @@ ul{
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #757575;
+    padding-bottom: 30px;
+}
+.comand{
+    background-color: #F5F4FA;
+}
+.company{
+    display: flex;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.company > li{
+    margin-right: 30px;
+    
+}
+.company > li:last-child{
+    margin-right: 0;
+}
+.block{
+    text-align: center; 
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+.block h3{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    
 }
 /* ФУТЕР */
 .web-footer{
@@ -176,7 +297,9 @@ footer{
     color: rgba(255, 255, 255, 0.6);
 }
 
-
+.foot{
+    padding-left: 0;
+}
 /* ПОРТФОЛІО */
 .btn-portfolio{
     background-color: #F5F4FA;
@@ -189,6 +312,8 @@ footer{
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
+    padding: 6px 25px;
+    border-radius: 8%;
 }
 .btn-portfolio:hover,
 .btn-portfolio:focus{
@@ -202,6 +327,9 @@ footer{
     line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
+    padding-left: 24px;
+    margin-top: 24px;
+    margin-bottom: 4px;
 }
 .addition{
     font-style: normal;
@@ -210,4 +338,42 @@ footer{
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: #757575;
+    padding-left: 24px;
+    margin-bottom: 20px;
+}
+/* .one-port{
+    border: 1px solid #EEEEEE;
+} */
+.btn-port{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.btn-port > li{
+    margin-right: 8px;
+}
+.btn-port > li:last-child{
+    margin-right: 0;
+}
+.head-port{
+    border-bottom: 1px solid #ECECEC;
+}
+.people{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+.people > li{
+    margin-right: 27px;
+    margin-bottom: 30px;
+    border: 0.5px solid #EEEEEE;
+}
+.people > li:nth-child(3){
+    margin-right: 0;
+}
+.people > li:nth-child(6){
+    margin-right: 0;
+}
+.people > li:nth-child(9){
+    margin-right: 0;
 }
