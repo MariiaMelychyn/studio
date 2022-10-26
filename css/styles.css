@@ -1,0 +1,16 @@
+:root{
+    --text-color: #757575;
+    --white-color: #ffffff;
+    --akcent-color: #2196F3;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: var(--text-color);
+    background-color: var(--white-color);
+}
+
+//HEADER
+.title{
+    color: red;
+}
