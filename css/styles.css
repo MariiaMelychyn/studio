@@ -83,8 +83,8 @@ ul {
   display: flex;
   align-items: center;
 }
-.add-header li a:hover,
-.add-header li a:focus {
+.add-header li:hover a,
+.add-header li:focus  a{
   color: var(--akcent-color);
 }
 .add-header mailto:hover,
