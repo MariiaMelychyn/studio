@@ -34,7 +34,7 @@
     <section class="one-section">
         <div class="container">
         <h1 class="baner">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-        <button typt="button" class="btn">Замовити послугу</button>
+        <button typt="button" class="btn" data-modal-open>Замовити послугу</button>
     </div>
     </section>
     <section class="section">
@@ -167,6 +167,17 @@
     </ul>
 </div>
     </div>
+    
+    <!-- МОДАЛЬНЕ ВІКНО -->
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <batton data-modal-close class="modal-batton">
+                    <img src="./img/close.png"> 
+            </batton>
+        </div>
+    </div>
+    
+    <script src="./js/modal.js"></script>
 </footer>
 </body>
 </html>
