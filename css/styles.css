@@ -51,6 +51,7 @@ ul {
 
 .navigation {
   color: var(--akcent-color);
+  position: relative;
 }
 .web {
   font-family: "Raleway", sans-serif;
@@ -107,6 +108,18 @@ ul {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.navigation::after{
+  content: '';
+  position: absolute;
+  padding: 3px;
+  width: 100%;
+  background-color: #2196f3;
+  border-radius: 2px;
+  bottom: 0;
+  left: 0;
+  top: 35px
+}
 /* Секція1 */
 /* 
 СЕКЦІЯ 1 */
@@ -122,8 +135,8 @@ ul {
   padding-bottom: 200px;
 }
 .head {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .logo-header {
   margin-right: 93px;
