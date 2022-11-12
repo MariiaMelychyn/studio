@@ -199,6 +199,7 @@ ul {
   cursor: pointer;
   padding: 10px 32px;
   border: transparent;
+  transform: rotate3d(5);
 }
 
 /* СЕКЦІЯ 2 */
@@ -260,7 +261,28 @@ ul {
 .sect {
   padding-top: 0;
 }
+.doing li{
+  position: relative;
+}
+.dodatki{
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+margin: 0;
+  font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+background-color:  rgba(47, 48, 58, 0.8);
+padding-top: 27px;
+padding-bottom: 27px;
 
+}
 /* СЕКЦІЯ 4 */
 .collective {
   font-style: normal;
@@ -556,14 +578,85 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
   transform: translate(-50%, -50%) scale(1);
   min-width: 528px;
   min-height: 581px;
+  padding: 40px;
   background-color: #ffffff;
+  transform: rotate3d(5);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
+.modal-text{
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 1.15;
+text-align: center;
+letter-spacing: 0.03em;
+margin-bottom: 12px;
+color: #212121;
+}
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(1.2);
 }
 
+.input{
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 12px;
+}
+.input label{
+  margin-bottom: 8px;
+}
+.input input{
+  width: 448px;
+  height: 40px;
+  padding: 20px;
+}
+.input textarea{
+  width: 448px;
+  height: 120px;
+  padding: 20px;
+}
+.cheked{
+  display: flex;
+}
+.contract{
+  color: #2196F3;
+  font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+text-decoration-line: underline;
+}
+.cont-ros{
+  font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+margin-left: 8px;
+}
+.submit{
+  padding: 10px 52px;
+  background-color: #2196F3;
+  border:transparent;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+  border-radius: 4px  ;
+  font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+margin-left: auto;
+margin-right: auto;
+color: #FFFFFF;
+}
 .modal-batton {
   position: absolute;
   top: 8px;

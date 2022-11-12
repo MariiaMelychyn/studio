@@ -68,9 +68,12 @@
         <div class="container">
         <h2 class="engage-in">Чим ми займаємося</h2>
         <ul class="doing">
-            <li><img src="./img/people.jpg" href="ноутбук" width="370"></li>
-            <li><img src="./img/noyt.jpg" href="компютер" width="370"></li>
-            <li><img src="./img/planshet.jpg" href="планшет" width="370"></li>
+            <li><img src="./img/people.jpg" href="ноутбук" width="370">
+            <p class="dodatki">Десктопні додатки</p></li>
+            <li><img src="./img/noyt.jpg" href="компютер" width="370">
+            <p class="dodatki">Мобільні додатки</p></li>
+            <li><img src="./img/planshet.jpg" href="планшет" width="370">
+            <p class="dodatki">Дизайнерські рішення</p></li>
         </ul>
         </div>
     </section>
@@ -174,7 +177,40 @@
             <batton data-modal-close class="modal-batton">
                     <img src="./img/close.png"> 
             </batton>
+
+            <h2 class="modal-text">Залиште свої дані, ми вам передзвонимо</h2>
+
+            <div class="input">
+                <input type="name" name="name" id="name">
+                <label for="name">Ім'я</label>
+            </div>
+
+            <div class="input">
+                <input type="tel" name="tel" id="tel">
+                <label for="tel">Телефон</label>
+            </div>
+
+             <div class="input">
+                <input type="email" name="email" id="email">
+                <label for="email">Пошта</label> 
+            </div>
+
+            <div class="input">
+                <textarea type="text" id="koment" name="text" placeholder="Введіть текст"></textarea>
+                <label for="koment">Коментар</label>
+            </div>
+
+            <div class="cheked">
+                <input type="checkbox" id="cheched" name="checkbox">
+                <label for="cheched" class="cont-ros">Погоджуюся з розсилкою та приймаю  <span class="contract">Умови договору</span></label>
+            </div>
+
+           
+           <button type="submit" class="submit">Відправити</button>
+    
         </div>
+
+        
     </div>
     
     <script src="./js/modal.js"></script>
