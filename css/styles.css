@@ -200,6 +200,7 @@ ul {
   padding: 10px 32px;
   border: transparent;
   transform: rotate3d(5);
+  border-radius: 4px;
 }
 
 /* СЕКЦІЯ 2 */
@@ -467,6 +468,53 @@ footer {
 .foot {
   padding-left: 0;
 }
+
+.rozpus{
+  font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 20px;
+}
+.form-footer{
+  margin-left: auto;
+}
+.footer-input{
+  width: 358px;
+  height: 50px;
+  padding: 30px;
+  font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: 0.03em;
+border: 1px solid rgba(255, 255, 255, 0.3);
+border-radius: 4px;
+}
+.flex{
+  display: flex;
+}
+.flex button{
+  background-color: #2196F3;
+  border: transparent;
+  color: #ffffff;
+  border-radius: 4px ;
+  padding: 10px 28px;
+  margin-left: 12px;
+}
+.tel{
+  fill:#ffffff;
+}
+.tel-btn{
+  display: flex;
+  align-items: center
+}
+.img{
+  margin-left: 10px;
+}
 /* ПОРТФОЛІО */
 .btn-portfolio {
   background-color: #f5f4fa;
@@ -610,6 +658,7 @@ color: #212121;
   width: 448px;
   height: 40px;
   padding: 20px;
+  padding-left: 40px;
 }
 .input textarea{
   width: 448px;
@@ -620,8 +669,8 @@ color: #212121;
   display: flex;
 }
 .contract{
-  color: #2196F3;
-  font-style: normal;
+color: #2196F3;
+font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -638,14 +687,14 @@ color: #757575;
 margin-left: 8px;
 }
 .submit{
-  padding: 10px 52px;
-  background-color: #2196F3;
-  border:transparent;
-  margin-top: 40px;
-  margin-bottom: 10px;
-  color: #FFFFFF;
-  border-radius: 4px  ;
-  font-style: normal;
+padding: 10px 52px;
+background-color: #2196F3;
+border:transparent;
+margin-top: 40px;
+margin-bottom: 10px;
+color: #FFFFFF;
+border-radius: 4px  ;
+font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
@@ -674,6 +723,47 @@ color: #FFFFFF;
   color: #2196f3;
 }
 
+.icon-modal{
+  position: absolute;
+  margin: 13px;
+}
+
+.input:hover svg, 
+.input:focus svg{
+  color: #2196F3;
+  fill: #2196F3;
+}
+.input .input-one{
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  outline: none;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+}
+
+.input .input-one:focus{
+  border-color: #2196F3;
+  /* background-color: #2196F3; */
+  fill: #2196F3;
+  
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+ 
+}
+.checkbox{
+  appearance: none;
+}
+.icon{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #2a2a2a;
+  border-radius: 4px;
+}
+.checkbox:checked {
+  border-color: transparent;
+  background-color: #2196F3;
+  background-color: #2196F3;
+  background-image: url('../img/vector.svg');
+  background-size: contain;
+}
 /* 6 ЗАВДАННЯ ПОРТОФЛІО */
 .rekurs{
   position: relative;
