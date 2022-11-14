@@ -667,6 +667,7 @@ color: #212121;
 }
 .cheked{
   display: flex;
+  align-items: center;
 }
 .contract{
 color: #2196F3;
@@ -748,22 +749,28 @@ color: #FFFFFF;
  
 }
 .checkbox{
-  appearance: none;
+  position: absolute;
+}
+.cont-ros{
+  display: inline-block;
+
 }
 .icon{
   display: inline-block;
-  width: 15px;
-  height: 15px;
+  width: 12px;
+  height: 12px;
   border: 2px solid #2a2a2a;
   border-radius: 4px;
+  background-size: contain;
 }
-.checkbox:checked {
-  border-color: transparent;
-  background-color: #2196F3;
+.checkbox:checked + .icon{
+  /* border-color: transparent; */
   background-color: #2196F3;
   background-image: url('../img/vector.svg');
   background-size: contain;
+ 
 }
+
 /* 6 ЗАВДАННЯ ПОРТОФЛІО */
 .rekurs{
   position: relative;
