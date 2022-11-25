@@ -84,7 +84,7 @@ ul {
   align-items: center;
 }
 .add-header li:hover a,
-.add-header li:focus  a{
+.add-header li:focus a {
   color: var(--akcent-color);
 }
 .add-header mailto:hover,
@@ -109,8 +109,8 @@ ul {
   overflow: hidden;
 }
 /* ПІДКРЕСЛЕННЯ ПОСИЛАННЯ */
-.navigation::after{
-  content: '';
+.navigation::after {
+  content: "";
   position: absolute;
   padding: 3px;
   width: 100%;
@@ -118,7 +118,7 @@ ul {
   border-radius: 2px;
   bottom: 0;
   left: 0;
-  top: 35px
+  top: 35px;
 }
 /* Секція1 */
 /* 
@@ -262,27 +262,26 @@ ul {
 .sect {
   padding-top: 0;
 }
-.doing li{
+.doing li {
   position: relative;
 }
-.dodatki{
-position: absolute;
-bottom: 0;
-left: 0;
-right: 0;
-margin: 0;
+.dodatki {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
   font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-text-align: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
-background-color:  rgba(47, 48, 58, 0.8);
-padding-top: 27px;
-padding-bottom: 27px;
-
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
+  padding-top: 27px;
+  padding-bottom: 27px;
 }
 /* СЕКЦІЯ 4 */
 .collective {
@@ -356,7 +355,6 @@ padding-bottom: 27px;
   fill: #ffffff;
   border-radius: 50%;
 }
-
 
 .company .comppeople {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -469,50 +467,50 @@ footer {
   padding-left: 0;
 }
 
-.rozpus{
+.rozpus {
   font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
-margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
 }
-.form-footer{
+.form-footer {
   margin-left: auto;
 }
-.footer-input{
+.footer-input {
   width: 358px;
   height: 50px;
   padding: 30px;
   font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.25;
-letter-spacing: 0.03em;
-border: 1px solid rgba(255, 255, 255, 0.3);
-border-radius: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
 }
-.flex{
+.flex {
   display: flex;
 }
-.flex button{
-  background-color: #2196F3;
+.flex button {
+  background-color: #2196f3;
   border: transparent;
   color: #ffffff;
-  border-radius: 4px ;
+  border-radius: 4px;
   padding: 10px 28px;
   margin-left: 12px;
 }
-.tel{
-  fill:#ffffff;
+.tel {
+  fill: #ffffff;
 }
-.tel-btn{
+.tel-btn {
   display: flex;
-  align-items: center
+  align-items: center;
 }
-.img{
+.img {
   margin-left: 10px;
 }
 /* ПОРТФОЛІО */
@@ -594,13 +592,13 @@ border-radius: 4px;
   margin-right: 0;
 }
 .people > li:hover,
-.people > li:focus{
-  border: 1px solid #EEEEEE;
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+.people > li:focus {
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 /* МОДАЛЬНЕ ВІКНО */
-
 
 .backdrop {
   position: fixed;
@@ -610,14 +608,13 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
 }
-
 
 .modal {
   position: absolute;
@@ -632,80 +629,80 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-text{
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 1.15;
-text-align: center;
-letter-spacing: 0.03em;
-margin-bottom: 12px;
-color: #212121;
+.modal-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 12px;
+  color: #212121;
 }
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(1.2);
 }
 
-.input{
+.input {
   display: flex;
   flex-direction: column-reverse;
   margin-bottom: 12px;
 }
-.input label{
+.input label {
   margin-bottom: 8px;
 }
-.input input{
+.input input {
   width: 448px;
   height: 40px;
   padding: 20px;
   padding-left: 40px;
 }
-.input textarea{
+.input textarea {
   width: 448px;
   height: 120px;
   padding: 20px;
 }
-.cheked{
+.cheked {
   display: flex;
   align-items: center;
 }
-.contract{
-color: #2196F3;
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-text-decoration-line: underline;
-}
-.cont-ros{
+.contract {
+  color: #2196f3;
   font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: #757575;
-margin-left: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
 }
-.submit{
-padding: 10px 52px;
-background-color: #2196F3;
-border:transparent;
-margin-top: 40px;
-margin-bottom: 10px;
-color: #FFFFFF;
-border-radius: 4px  ;
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.88;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-margin-left: auto;
-margin-right: auto;
-color: #FFFFFF;
+.cont-ros {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin-left: 8px;
+}
+.submit {
+  padding: 10px 52px;
+  background-color: #2196f3;
+  border: transparent;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
 }
 .modal-batton {
   position: absolute;
@@ -724,38 +721,37 @@ color: #FFFFFF;
   color: #2196f3;
 }
 
-.icon-modal{
+.icon-modal {
   position: absolute;
   margin: 13px;
 }
 
-.input:hover svg, 
-.input:focus svg{
-  color: #2196F3;
-  fill: #2196F3;
+.input:hover svg,
+.input:focus svg {
+  color: #2196f3;
+  fill: #2196f3;
 }
-.input .input-one{
+.input .input-one {
   border: 1px solid rgba(33, 33, 33, 0.2);
   outline: none;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input .input-one:focus{
-  border-color: #2196F3;
+.input .input-one:focus {
+  border-color: #2196f3;
   /* background-color: #2196F3; */
-  fill: #2196F3;
-  
+  fill: #2196f3;
+
   box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
- 
 }
-.checkbox{
+.checkbox {
   position: absolute;
 }
-.cont-ros{
+.cont-ros {
   display: inline-block;
-
 }
-.icon{
+.icon {
   display: inline-block;
   width: 12px;
   height: 12px;
@@ -763,16 +759,15 @@ color: #FFFFFF;
   border-radius: 4px;
   background-size: contain;
 }
-.checkbox:checked + .icon{
+.checkbox:checked + .icon {
   /* border-color: transparent; */
-  background-color: #2196F3;
-  background-image: url('../img/vector.svg');
+  background-color: #2196f3;
+  background-image: url("../img/vector.svg");
   background-size: contain;
- 
 }
 
 /* 6 ЗАВДАННЯ ПОРТОФЛІО */
-.rekurs{
+.rekurs {
   position: relative;
   overflow: hidden;
 }
@@ -783,7 +778,7 @@ color: #FFFFFF;
   padding-left: 24px;
   padding-right: 24px;
   display: flex;
-  color:  #ffffff;
+  color: #ffffff;
   font-size: 18px;
   line-height: 1.55;
   letter-spacing: 0.54px;
@@ -793,9 +788,9 @@ color: #FFFFFF;
 
 .people li:focus .overlay,
 .people li:hover .overlay {
-    transform: translateY(-100%);
+  transform: translateY(-100%);
 }
 
 .overlay p {
-    margin: auto;
+  margin: auto;
 }
