@@ -170,7 +170,8 @@ ul {
   margin-left: auto;
 }
 .baner {
-  color: var(--white-color);
+  color: red;
+  /* color: var(--white-color); */
   width: 696px;
   margin-left: auto;
   margin-right: auto;
