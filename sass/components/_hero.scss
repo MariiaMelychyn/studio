@@ -1,0 +1,81 @@
+
+.one-section {
+  background-image: linear-gradient(
+      to left,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../img/hero.jpg);
+  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.head {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.logo-header {
+  margin-right: 93px;
+}
+.mailto {
+  fill: #757575;
+  margin-right: 10px;
+}
+.mailto:hover,
+.mailto:focus {
+  fill: $akcent;
+}
+.header {
+  display: flex;
+}
+.cont > li {
+  margin-right: 50px;
+}
+.add-header > li {
+  margin-right: 50px;
+}
+.navig {
+  display: flex;
+  align-items: center;
+}
+.cont {
+  display: flex;
+}
+.add-header {
+  display: flex;
+  margin-left: auto;
+}
+.baner {
+  color: red;
+  /* color: var(--white-color); */
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.btn {
+  position: relative;
+  color: $white;
+  background-color: $akcent;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  padding: 10px 32px;
+  border: transparent;
+  transform: rotate3d(5);
+  border-radius: 4px;
+}

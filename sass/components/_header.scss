@@ -1,0 +1,59 @@
+.navigation {
+    color: $akcent;
+    position: relative;
+  }
+  .web {
+    font-family: "Raleway", sans-serif;
+    color: $akcent;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+  }
+  .studio {
+    font-family: "Raleway", sans-serif;
+    color: #000000;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+  }
+  .link {
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  }
+  .link:hover,
+  .link:focus {
+    color: $akcent;
+  }
+  .contact {
+    color: #757575;
+    display: flex;
+    align-items: center;
+  }
+  .add-header li:hover a,
+  .add-header li:focus a {
+    color: $akcent;
+  }
+  .add-header mailto:hover,
+  .add-header mailto:focus {
+    color: $akcent;
+  }
+  .cont {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* ПІДКРЕСЛЕННЯ ПОСИЛАННЯ */
+.navigation::after {
+    content: "";
+    position: absolute;
+    padding: 3px;
+    width: 100%;
+    background-color: $akcent;
+    border-radius: 2px;
+    bottom: 0;
+    left: 0;
+    top: 35px;
+  }

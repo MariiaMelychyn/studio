@@ -1,0 +1,113 @@
+.btn-portfolio {
+    background-color: #f5f4fa;
+    color: #212121;
+    border: transparent;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    padding: 6px 25px;
+    border-radius: 8%;
+  }
+  .btn-portfolio:hover,
+  .btn-portfolio:focus {
+    color: $white;
+    background-color: $akcent;
+  }
+  .portfolio-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+    padding-left: 24px;
+    margin-top: 24px;
+    margin-bottom: 4px;
+  }
+  .addition {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+    padding-left: 24px;
+    margin-bottom: 20px;
+  }
+  /* .one-port{
+      border: 1px solid #EEEEEE;
+  } */
+  .btn-port {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .btn-port > li {
+    margin-right: 8px;
+  }
+  .btn-port > li:last-child {
+    margin-right: 0;
+  }
+  .head-port {
+    border-bottom: 1px solid #ececec;
+  }
+  .people {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+  }
+  .people > li {
+    margin-right: 27px;
+    margin-bottom: 30px;
+    border: 0.5px solid #eeeeee;
+  }
+  
+  .people > li:nth-child(3) {
+    margin-right: 0;
+  }
+  .people > li:nth-child(6) {
+    margin-right: 0;
+  }
+  .people > li:nth-child(9) {
+    margin-right: 0;
+  }
+  .people > li:hover,
+  .people > li:focus {
+    border: 1px solid #eeeeee;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+  
+
+  /* 6 ЗАВДАННЯ ПОРТОФЛІО */
+.rekurs {
+  position: relative;
+  overflow: hidden;
+}
+.overlay {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  padding-left: 24px;
+  padding-right: 24px;
+  display: flex;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.54px;
+  background-color: rgba(33, 150, 243, 0.9);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.people li:focus .overlay,
+.people li:hover .overlay {
+  transform: translateY(-100%);
+}
+
+.overlay p {
+  margin: auto;
+}

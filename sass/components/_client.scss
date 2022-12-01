@@ -1,0 +1,25 @@
+.client {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    line-height: 1.16;
+    color: #212121;
+    margin-bottom: 50px;
+  }
+  .client-new {
+    display: flex;
+  }
+  .client-new li {
+    padding: 20px 0;
+    margin-right: 30px;
+    text-align: center;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    width: 170px;
+    height: 90px;
+  }
+  .client-new li:hover,
+  .client-new li:focus {
+    border: 1px solid #2196f3;
+  }

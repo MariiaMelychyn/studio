@@ -1,0 +1,73 @@
+$text: #757575;
+$white: #ffffff;
+$akcent: #2196f3;
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+a {
+    text-decoration: none;
+  }
+  html {
+    box-sizing: border-box;
+  }
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+  }
+  /* Стили для обнуления верхних отступов у элементов */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin-top: 0;
+  }
+  img {
+    display: block;
+    height: auto;
+  }
+  ul {
+    list-style: none;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: $text;
+    background-color: $white;
+  }
+  
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
